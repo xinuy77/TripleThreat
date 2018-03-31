@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Password Scheme</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="grey darken-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Password Scheme Tester</a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="ui_2">
+    <div class="container">
+      <br><br>
+      <h1 class="header center">Password: <span class="red-text" id="password"></span></h1>
+      <div class="row center">
+          <h5 class="header col s12 light">This is your password.<br>Click next after you remember your password.</h5>
+      </div>
+      <div class="row center">
+        <button id="nextButton" class="btn-large waves-effect waves-light red">Next</button>
+      </div>
+    </div>
+  </div>
+  <div class="section no-pad-bot" id="ui_3">
+    <div class="container">
+      <br><br>
+      <h1 class="header center red-text text-lighten-1"></h1>
+      <div class="row center">
+          <h5 class="header col s12 light">Please enter your <span class="red-text" id="service"></span>  password. You have <span id="counter"></span> attempts left.</h5>
+      </div>
+      <div class="row center">
+      <div class="row">
+        <input id="passwordInput" type="password" class="validate">
+        <label for="password">Password</label>
+      </div>
+        <button id="loginButton" class="btn-large waves-effect waves-light blue">Login</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/index.js"></script>
+  </body>
+</html>
