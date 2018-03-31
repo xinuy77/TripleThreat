@@ -1,12 +1,12 @@
 {
-  "name": "assignment4",
+  "name": "",
   "version": "1.0.0",
-  "description": "Express based web site which uses RESTFull API",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Steven, Tianxu",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.18.2",
